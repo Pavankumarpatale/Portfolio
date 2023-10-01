@@ -1,0 +1,121 @@
+body, h1, h2, h3, ul, p1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+section .image-text-container3 {
+    display: flex;
+    align-items: center;
+    background-image: url("https://media.giphy.com/media/l1J9Lk8lj7cNlA5GM/giphy.gif");
+    gap: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.image-text-container3 img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.form-group {
+    flex: auto;
+    margin-right: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button.large-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add styles for other sections if needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.homepage {
+    background-color: #f0f0f0;
+}
+
+.about-page {
+    background-color: #f9f9f9;
+}
+
+.portfolio-page {
+    background-color: #f0f0f0;
+}
+
+.contact-page {
+    background-color: #f9f9f9;
+}
+.image-text-container {
+    display: flex;
+    align-items: center;
+    background-image: url("https://media.giphy.com/media/l1J9Lk8lj7cNlA5GM/giphy.gif");
+    gap: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.image-text-container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.image-text-container .text-content {
+    flex: 1; 
+}
+
